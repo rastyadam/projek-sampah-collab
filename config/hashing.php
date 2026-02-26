@@ -1,4 +1,4 @@
-<?php
+git config --global user.name<?php
 
 return [
 
