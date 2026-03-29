@@ -40,7 +40,7 @@
             min-height: 100vh;
             display: flex;
             align-items: center;
-            background: url("{{ asset('kantinusa.jpg') }}") no-repeat center center;
+         background: url("{{ asset('images/smkpws.jpg') }}") no-repeat center center;
             background-size: cover;
             margin-top: -75px; /* Menembus Navbar */
         }
@@ -119,9 +119,9 @@
 
         .img-siswi {
             max-width: 85%;
-            filter: drop-shadow(0 0px 0px rgba(0,0,0,0.4));
+            filter: drop-shadow(0 0px 0px rgba(0,0,0,0.0));
             animation: float 6s ease-in-out infinite;
-            border: 8px solid white;
+            border: 0px solid black;
             border-radius: 30px;
         }
 
@@ -400,35 +400,169 @@ small {
     justify-content: center;
     margin-right: 15px;
 }
-/* Efek kartu agar rapi di slider */
-.swiper-slide {
-    height: auto; /* Biar tinggi kartu sama rata */
+/* --- ROOT & GLOBAL VARIABLES --- */
+:root {
+    --maroon-nusa: #7a1d1d;
+    --gold-nusa: #d4a017;
+    --light-bg: #f8f9fa;
 }
 
-.card-menu {
-    transition: all 0.3s ease;
-    border: 1px solid rgba(0,0,0,0.05) !important;
+/* --- MENU WRAPPER & CONTAINER --- */
+.menu-wrapper-premium {
+    position: relative;
+    padding: 10px 0;
 }
 
-.card-menu:hover {
-    transform: translateY(-5px);
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 25px;
+    padding: 20px 10px 40px;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
 }
 
-.price-badge {
+.scroll-container::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+}
+
+/* --- CARD STYLING --- */
+.menu-card {
+    min-width: 300px;
+    max-width: 300px;
+    background: white;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 1px solid rgba(0,0,0,0.03);
+    position: relative;
+}
+
+.menu-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 25px 50px rgba(122, 29, 29, 0.15) !important;
+}
+
+/* --- IMAGE & BADGE --- */
+.menu-img-wrapper {
+    position: relative;
+    height: 220px;
+    overflow: hidden;
+}
+
+.menu-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.8s ease;
+}
+
+.menu-card:hover .menu-img-wrapper img {
+    transform: scale(1.15) rotate(2deg);
+}
+
+.badge-menu {
     position: absolute;
-    top: 0;
-    right: 0;
-    background: #ffc107;
-    color: #000;
+    top: 15px;
+    left: 15px;
+    padding: 8px 18px;
+    border-radius: 50px;
+    font-size: 0.7rem;
     font-weight: 800;
-    padding: 8px 15px;
-    border-bottom-left-radius: 20px;
-    z-index: 10;
+    letter-spacing: 1px;
+    z-index: 2;
+    backdrop-filter: blur(4px);
+    background-color: rgba(220, 53, 69, 0.9); /* Default Danger */
+    color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
-/* Warna titik navigasi swiper */
-.swiper-pagination-bullet-active {
-    background: var(--maroon-nusa) !important;
+/* --- TYPOGRAPHY --- */
+.brand-owner {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--gold-nusa);
+    margin-bottom: 8px;
+}
+
+.menu-card h5 {
+    color: #2d3436;
+    font-weight: 800;
+    line-height: 1.2;
+    transition: 0.3s;
+}
+
+.menu-card:hover h5 {
+    color: var(--maroon-nusa);
+}
+
+.price-tag {
+    color: var(--maroon-nusa);
+    font-weight: 900;
+    font-size: 1.3rem;
+    letter-spacing: -0.5px;
+}
+
+/* --- BUTTONS --- */
+.btn-add-cart {
+    width: 45px;
+    height: 45px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, var(--gold-nusa), #ffc107);
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    box-shadow: 0 4px 15px rgba(212, 160, 23, 0.3);
+}
+
+.btn-add-cart:hover {
+    transform: scale(1.1) rotate(10deg);
+    background: var(--maroon-nusa);
+}
+
+.scroll-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    background: white;
+    border: 1px solid #eee;
+    color: var(--maroon-nusa);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.scroll-btn:hover {
+    background: var(--maroon-nusa);
+    color: white;
+    box-shadow: 0 10px 20px rgba(122, 29, 29, 0.2);
+}
+
+/* --- PAGINATION DOTS (TITIK DI BAWAH) --- */
+.dot {
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dot.active {
+    width: 30px; /* Titik jadi oval saat aktif */
+    background: var(--gold-nusa);
+    border-radius: 20px;
 }
 
     </style>
@@ -472,7 +606,7 @@ small {
                 <div class="col-lg-5" data-aos="zoom-in">
                     <div class="hero-image-container">
                         <div class="glow-circle"></div>
-                        <img src="{{ asset('') }}" class="img-siswi" alt="Kantin Nusa">
+                      <img src="{{ asset('') }}" class="img-siswi" alt="Kantin Nusa">
                     </div>
                 </div>
             </div>
@@ -518,7 +652,7 @@ small {
         <li>
             <a href="#" class="d-flex justify-content-between align-items-center">
                 <span><i class="fas fa-shopping-basket"></i> Pesanan Masuk</span>
-                <span class="badge bg-danger rounded-pill pulse-badge">5</span>
+                <span class="badge bg-danger rounded-pill pulse-badge"></span>
             </a>
         </li>
 
@@ -715,96 +849,174 @@ small {
         </div>
     </div>
 </section>
-<section class="container py-5 mb-5">
-    <div class="text-center mb-5" data-aos="fade-up">
-        <span class="badge px-3 py-2 mb-2" style="background: rgba(243, 156, 18, 0.1); color: #f39c12; font-weight: 600; letter-spacing: 1px;">HIDANGAN TERLARIS</span>
-        <h2 class="display-5 fw-bold" style="color: var(--maroon-nusa);">Menu Favorit <span class="text-warning">Hari Ini</span></h2>
-        <p class="text-muted">Nikmati menu pilihan terbaik dari Stan Bu Siti & rekan-rekan.</p>
+
+<section class="container py-5">
+    <div class="d-flex justify-content-between align-items-end mb-4" data-aos="fade-up">
+        <div>
+            <span class="text-warning fw-bold text-uppercase tracking-widest small">
+                <i class="fas fa-utensils me-2"></i>Destinasi Kuliner Terpopuler
+            </span>
+            <h2 class="fw-bold mb-0" style="color: var(--maroon-nusa); font-size: 2.8rem; letter-spacing: -1px;">
+                Cita Rasa <span class="text-warning">Ikonik</span> Nusantara
+            </h2>
+            <p class="text-muted italic">Eksplorasi kelezatan autentik dari dapur-dapur pilihan terbaik kami.</p>
+        </div>
+        <div class="d-none d-md-flex gap-2">
+            <button class="scroll-btn shadow-sm" onclick="scrollMenu(-350)"><i class="fas fa-chevron-left"></i></button>
+            <button class="scroll-btn shadow-sm" onclick="scrollMenu(350)"><i class="fas fa-chevron-right"></i></button>
+        </div>
     </div>
 
-    <div class="swiper menuSwiper pb-5" data-aos="fade-up">
-        <div class="swiper-wrapper">
-            
-            <div class="swiper-slide">
-                <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-100 card-menu">
-                    <div class="position-relative overflow-hidden">
-                        <img src="https://img.freepik.com/free-photo/nasi-goreng-indonesian-fried-rice-with-shrimp-crackers-and-fried-egg_114579-2280.jpg" class="card-img-top img-hover" alt="Nasi Goreng" style="height: 200px; object-fit: cover;">
-                        <span class="badge bg-danger position-absolute top-0 start-0 m-3 shadow-sm"><i class="fas fa-fire me-1"></i> Terlaris</span>
-                        <span class="price-badge">Rp 15k</span>
+    <div class="menu-wrapper-premium">
+        <div class="scroll-container" id="menuContainer">
+
+            <div class="menu-card shadow-sm border-0">
+                <a href="{{ url('/dapur-bu-sitti') }}" class="text-decoration-none">
+                    <div class="menu-img-wrapper">
+                        <span class="badge-menu bg-danger"><i class="fas fa-fire me-1"></i> PALING LARIS</span>
+                        <img src="" alt="Warung Bu Sitti">
                     </div>
-                    <div class="card-body p-3">
-                        <h6 class="fw-bold mb-1">Nasi Goreng Spesial</h6>
-                        <p class="text-muted small mb-3"><i class="fas fa-store me-1 text-danger"></i> Stan Bu Siti</p>
-                        <button class="btn btn-nusa-outline w-100 rounded-pill btn-sm fw-bold">Tambah</button>
+                </a>
+                <div class="p-3 text-center">
+                    <div class="brand-owner mb-1">
+                        <span style="font-family: 'Playfair Display', serif; font-weight: 800; font-size: 1.4rem; color: #2c3e50; letter-spacing: 0.5px;">
+                            <i class="fas fa-store me-2 text-warning" style="font-size: 1.1rem;"></i>Dapoer <span class="text-warning">Bu Sitti</span>
+                        </span>
                     </div>
+                    <div class="d-flex justify-content-center align-items-center mb-3 text-muted small">
+                        <i class="fas fa-star text-warning me-1"></i> <span class="fw-bold text-dark">4.8</span>
+                        <span class="mx-2">•</span>
+                        <span class="fst-italic" style="font-size: 0.8rem; color: #888;">Resep Legendaris</span>
+                    </div>
+                    <button class="btn btn-sm w-100 rounded-pill border-0 text-muted fw-bold bg-light shadow-none" style="cursor: default; font-size: 0.75rem;">
+                        <i class="fas fa-map-marker-alt me-1 text-danger"></i> Dekat Mushola
+                    </button>
                 </div>
             </div>
 
-            <div class="swiper-slide">
-                <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-100 card-menu">
-                    <div class="position-relative overflow-hidden">
-                        <img src="https://img.freepik.com/free-photo/bakso-indonesian-meatball-soup-served-with-noodles-and-tofu_114579-2283.jpg" class="card-img-top img-hover" alt="Bakso" style="height: 200px; object-fit: cover;">
-                        <span class="price-badge">Rp 12k</span>
+            <div class="menu-card shadow-sm border-0">
+                <a href="{{ url('/pak-kumis') }}" class="text-decoration-none">
+                    <div class="menu-img-wrapper">
+                        <span class="badge-menu bg-primary"><i class="fas fa-award me-1"></i> REKOMENDASI</span>
+                        <img src="" alt="Pak Kumis">
                     </div>
-                    <div class="card-body p-3">
-                        <h6 class="fw-bold mb-1">Bakso Urat Mantap</h6>
-                        <p class="text-muted small mb-3"><i class="fas fa-store me-1 text-danger"></i> Bakso Pak Kumis</p>
-                        <button class="btn btn-nusa-outline w-100 rounded-pill btn-sm fw-bold">Tambah</button>
+                </a>
+                <div class="p-3 text-center">
+                    <div class="brand-owner mb-1">
+                        <span style="font-family: 'Playfair Display', serif; font-weight: 800; font-size: 1.4rem; color: #2c3e50; letter-spacing: 0.5px;">
+                            <i class="fas fa-store me-2 text-warning" style="font-size: 1.1rem;"></i>Bakso <span class="text-warning">Pak Kumis</span>
+                        </span>
                     </div>
+                    <div class="d-flex justify-content-center align-items-center mb-3 text-muted small">
+                        <i class="fas fa-star text-warning me-1"></i> <span class="fw-bold text-dark">5.0</span>
+                        <span class="mx-2">•</span>
+                        <span class="fst-italic" style="font-size: 0.8rem; color: #888;">wenakkkk rek!!!!</span>
+                    </div>
+                    <button class="btn btn-sm w-100 rounded-pill border-0 text-muted fw-bold bg-light shadow-none" style="cursor: default; font-size: 0.75rem;">
+                        <i class="fas fa-map-marker-alt me-1 text-danger"></i> Blok Parkiran
+                    </button>
                 </div>
             </div>
 
-            <div class="swiper-slide">
-                <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-100 card-menu">
-                    <div class="position-relative overflow-hidden">
-                        <img src="https://img.freepik.com/free-photo/iced-tea-with-lemon_144627-18349.jpg" class="card-img-top img-hover" alt="Es Teh" style="height: 200px; object-fit: cover;">
-                        <span class="price-badge">Rp 5k</span>
+            <div class="menu-card shadow-sm border-0">
+                <a href="{{ url('/geprek-mas-mono') }}" class="text-decoration-none">
+                    <div class="menu-img-wrapper">
+                        <span class="badge-menu bg-warning text-dark"><i class="fas fa-star me-1"></i> FAVORIT</span>
+                        <img src="" alt="Geprek Pak Amiin">
                     </div>
-                    <div class="card-body p-3">
-                        <h6 class="fw-bold mb-1">Es Teh Manis Segar</h6>
-                        <p class="text-muted small mb-3"><i class="fas fa-store me-1 text-danger"></i> Kedai Minum</p>
-                        <button class="btn btn-nusa-outline w-100 rounded-pill btn-sm fw-bold">Tambah</button>
+                </a>
+                <div class="p-3 text-center">
+                    <div class="brand-owner mb-1">
+                        <span style="font-family: 'Playfair Display', serif; font-weight: 800; font-size: 1.4rem; color: #2c3e50; letter-spacing: 0.5px;">
+                            <i class="fas fa-store me-2 text-warning" style="font-size: 1.1rem;"></i>Warung <span class="text-warning">Jajan Chiki</span>
+                        </span>
                     </div>
+                    <div class="d-flex justify-content-center align-items-center mb-3 text-muted small">
+                        <i class="fas fa-star text-warning me-1"></i> <span class="fw-bold text-dark">4.6</span>
+                        <span class="mx-2">•</span>
+                        <span class="fst-italic" style="font-size: 0.8rem; color: #888;">Aneka Jajanan Kekinian</span>
+                    </div>
+                    <button class="btn btn-sm w-100 rounded-pill border-0 text-muted fw-bold bg-light shadow-none" style="cursor: default; font-size: 0.75rem;">
+                        <i class="fas fa-map-marker-alt me-1 text-danger"></i> Dekat Lapangan
+                    </button>
                 </div>
             </div>
 
-            <div class="swiper-slide">
-                <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-100 card-menu">
-                    <div class="position-relative overflow-hidden">
-                        <img src="https://img.freepik.com/free-photo/traditional-indonesian-food-ayam-geprek_114579-2285.jpg" class="card-img-top img-hover" alt="Ayam Geprek" style="height: 200px; object-fit: cover;">
-                        <span class="price-badge">Rp 13k</span>
+            <div class="menu-card shadow-sm border-0">
+               <a href="{{ url('/dapoer-mbak-ros') }}" class="text-decoration-none">
+                    <div class="menu-img-wrapper">
+                        <span class="badge-menu bg-success text-white"><i class="fas fa-leaf me-1"></i> HIDANGAN WENAK</span>
+                        <img src="" alt="Mbak Ros">
                     </div>
-                    <div class="card-body p-3">
-                        <h6 class="fw-bold mb-1">Ayam Geprek Lv. 5</h6>
-                        <p class="text-muted small mb-3"><i class="fas fa-store me-1 text-danger"></i> Ayam Juara</p>
-                        <button class="btn btn-nusa-outline w-100 rounded-pill btn-sm fw-bold">Tambah</button>
+                </a>
+                <div class="p-3 text-center">
+                    <div class="brand-owner mb-1">
+                        <span style="font-family: 'Playfair Display', serif; font-weight: 800; font-size: 1.4rem; color: #2c3e50; letter-spacing: 0.5px;">
+                            <i class="fas fa-store me-2 text-warning" style="font-size: 1.1rem;"></i>Dapoer <span class="text-warning">Mbak Ros</span>
+                        </span>
                     </div>
+                    <div class="d-flex justify-content-center align-items-center mb-3 text-muted small">
+                        <i class="fas fa-star text-warning me-1"></i> <span class="fw-bold text-dark">4.7</span>
+                        <span class="mx-2">•</span>
+                        <span class="fst-italic" style="font-size: 0.8rem; color: #888;">Dari Dapur ke Hati</span>
+                    </div>
+                    <button class="btn btn-sm w-100 rounded-pill border-0 text-muted fw-bold bg-light shadow-none" style="cursor: default; font-size: 0.75rem;">
+                        <i class="fas fa-map-marker-alt me-1 text-danger"></i> Gedung Timur
+                    </button>
                 </div>
             </div>
 
-            <div class="swiper-slide">
-                <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-100 card-menu">
-                    <div class="position-relative overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1630384066242-17a17833c147?auto=format&fit=crop&w=500" class="card-img-top img-hover" alt="Mie Ayam" style="height: 200px; object-fit: cover;">
-                        <span class="price-badge">Rp 10k</span>
+            <div class="menu-card shadow-sm border-0">
+             <a href="{{ url('/cak-anwar') }}" class="text-decoration-none">
+                    <div class="menu-img-wrapper">
+                        <span class="badge-menu bg-dark text-white"><i class="fas fa-clock me-1"></i> CEPAT SAJI</span>
+                        <img src="" alt="Mie Ayam Cak Anwar">
                     </div>
-                    <div class="card-body p-3">
-                        <h6 class="fw-bold mb-1">Mie Ayam Ceker</h6>
-                        <p class="text-muted small mb-3"><i class="fas fa-store me-1 text-danger"></i> Mie Ayam Solo</p>
-                        <button class="btn btn-nusa-outline w-100 rounded-pill btn-sm fw-bold">Tambah</button>
+                </a>
+                <div class="p-3 text-center">
+                    <div class="brand-owner mb-1">
+                        <span style="font-family: 'Playfair Display', serif; font-weight: 800; font-size: 1.4rem; color: #2c3e50; letter-spacing: 0.5px;">
+                            <i class="fas fa-store me-2 text-warning" style="font-size: 1.1rem;"></i>Mie Ayam <span class="text-warning">Cak Anwar</span>
+                        </span>
                     </div>
+                    <div class="d-flex justify-content-center align-items-center mb-3 text-muted small">
+                        <i class="fas fa-star text-warning me-1"></i> <span class="fw-bold text-dark">4.9</span>
+                        <span class="mx-2">•</span>
+                        <span class="fst-italic" style="font-size: 0.8rem; color: #888;">Mie Ayam Jamur</span>
+                    </div>
+                    <button class="btn btn-sm w-100 rounded-pill border-0 text-muted fw-bold bg-light shadow-none" style="cursor: default; font-size: 0.75rem;">
+                        <i class="fas fa-map-marker-alt me-1 text-danger"></i> Area Perpus
+                    </button>
+                </div>
+            </div>
+
+            <div class="menu-card shadow-sm border-0">
+              <a href="{{ url('/seblak-teh-santy') }}" class="text-decoration-none">
+                    <div class="menu-img-wrapper">
+                        <span class="badge-menu bg-info text-white"><i class="fas fa-bolt me-1"></i> TRENDING</span>
+                        <img src="" alt="Seblak Teh Shanty">
+                    </div>
+                </a>
+                <div class="p-3 text-center">
+                    <div class="brand-owner mb-1">
+                        <span style="font-family: 'Playfair Display', serif; font-weight: 800; font-size: 1.4rem; color: #2c3e50; letter-spacing: 0.5px;">
+                            <i class="fas fa-store me-2 text-warning" style="font-size: 1.1rem;"></i>Seblak <span class="text-warning">Teh Shanty</span>
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center mb-3 text-muted small">
+                        <i class="fas fa-star text-warning me-1"></i> <span class="fw-bold text-dark">4.5</span>
+                        <span class="mx-2">•</span>
+                        <span class="fst-italic" style="font-size: 0.8rem; color: #888;">Pedasnya Nagih!</span>
+                    </div>
+                    <button class="btn btn-sm w-100 rounded-pill border-0 text-muted fw-bold bg-light shadow-none" style="cursor: default; font-size: 0.75rem;">
+                        <i class="fas fa-map-marker-alt me-1 text-danger"></i> Samping Aula
+                    </button>
                 </div>
             </div>
 
         </div>
-        <div class="swiper-pagination"></div>
     </div>
-
-    <div class="text-center mt-4">
-        <a href="#" class="btn btn-warning px-5 py-3 rounded-pill fw-bold shadow-sm text-white">
-            Lihat Semua Menu <i class="fas fa-arrow-right ms-2"></i>
-        </a>
-    </div>
+    <div class="menu-indicators d-flex justify-content-center gap-2 mt-4" id="menuDots"></div>
 </section>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -820,26 +1032,85 @@ small {
         behavior: 'smooth'
     });
 }
+document.addEventListener("DOMContentLoaded", function() {
+    const container = document.getElementById('menuContainer');
+    const dotsContainer = document.getElementById('menuDots');
+    const cards = container.getElementsByClassName('menu-card');
+    let isAutoScrolling = true;
+
+   // 1. Buat Titik-Titik dengan Kalkulasi Presisi
+const gap = 25; // Sesuaikan dengan gap di CSS kamu
+for (let i = 0; i < cards.length; i++) {
+    const dot = document.createElement('div');
+    dot.classList.add('dot');
+    if (i === 0) dot.classList.add('active');
+    
+    dot.addEventListener('click', () => {
+        isAutoScrolling = false;
+        // Ambil lebar kartu secara dinamis agar akurat
+        const cardWidth = cards[0].offsetWidth + gap; 
+        container.scrollTo({
+            left: i * cardWidth,
+            behavior: 'smooth'
+        });
+        // Berikan jeda lebih lama setelah diklik agar tidak langsung lari lagi
+        setTimeout(() => { isAutoScrolling = true; }, 4000);
+    });
+    dotsContainer.appendChild(dot);
+}
+
+const dots = document.querySelectorAll('.dot');
+
+// 2. Fungsi Update Titik (Versi Anti-Lag / High Performance)
+let isScrolling;
+container.addEventListener('scroll', () => {
+    // Gunakan requestAnimationFrame agar update visual mulus (60fps)
+    window.requestAnimationFrame(() => {
+        const cardWidth = cards[0].offsetWidth + gap;
+        
+        // Menggunakan offset sedikit (cardWidth / 3) agar titik pindah 
+        // LEBIH CEPAT sebelum kartu benar-benar sampai di tengah.
+        const activeIndex = Math.floor((container.scrollLeft + (cardWidth / 3)) / cardWidth);
+        
+        // Hanya update class jika indeksnya berubah (biar gak kerja berat)
+        dots.forEach((dot, index) => {
+            const isActive = index === activeIndex;
+            if (dot.classList.contains('active') !== isActive) {
+                dot.classList.toggle('active', isActive);
+            }
+        });
+    });
+}, { passive: true }); // 'passive: true' membuat scroll di HP jadi jauh lebih licin
+    // 3. Fungsi Tombol Panah (Global agar terbaca onclick)
+    window.scrollMenu = function(val) {
+        isAutoScrolling = false;
+        container.scrollBy({ left: val, behavior: 'smooth' });
+        setTimeout(() => { isAutoScrolling = true; }, 3000);
+    };
+
+    // 4. Auto Scroll Logic
+    function autoScroll() {
+        if (isAutoScrolling) {
+            // Jika sudah mentok kanan, balik ke nol
+            if (container.scrollLeft + container.clientWidth >= container.scrollWidth - 5) {
+                container.scrollTo({ left: 0, behavior: 'smooth' });
+            } else {
+                container.scrollLeft += 1; 
+            }
+        }
+    }
+
+    let scrollInterval = setInterval(autoScroll, 30);
+
+    // 5. Pause saat disentuh atau mouse di atasnya
+    container.addEventListener('mouseenter', () => isAutoScrolling = false);
+    container.addEventListener('mouseleave', () => isAutoScrolling = true);
+    container.addEventListener('touchstart', () => isAutoScrolling = false);
+    container.addEventListener('touchend', () => {
+        setTimeout(() => { isAutoScrolling = true; }, 2000);
+    });
+});
     </script>
-    <script>
-  var swiper = new Swiper(".menuSwiper", {
-    slidesPerView: 2,         // Di HP muncul 2 kartu
-    spaceBetween: 20,         // Jarak antar kartu
-    loop: true,               // Terus muter (Infinity loop)
-    grabCursor: true,         // Kursor berubah jadi tangan (bisa ditarik)
-    autoplay: {
-      delay: 3000,            // Geser tiap 3 detik
-      disableOnInteraction: false, // Tetap auto-play meski sudah digeser manual
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,        // Titik-titik bawah bisa diklik
-    },
-    breakpoints: {
-      768: { slidesPerView: 3 }, // Di Tablet muncul 3
-      1024: { slidesPerView: 4 } // Di PC muncul 4
-    },
-  });
-</script>
+    
 </body>
 </html>
