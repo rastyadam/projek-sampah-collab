@@ -48,9 +48,9 @@ class User extends Authenticatable
         return $this->hasOne(Wallet::class);
     }
 
-    public function canAccessPanel(\Filament\Panel $panel): bool
-{
-    return in_array($this->role, ['admin', 'penjual']);
-}
+//     public function canAccessPanel(\Filament\Panel $panel): bool
+// {
+//     return in_array($this->role, ['admin', 'penjual']);
+// }
 
 }
