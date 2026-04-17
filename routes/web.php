@@ -6,6 +6,7 @@ use App\Http\Controllers\OrderController;
 use App\Http\Controllers\ReportController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\ProfilController;
 
 // --- 1. GUEST ROUTES (Hanya untuk yang BELUM Login) ---
 Route::middleware(['guest'])->group(function () {
@@ -14,7 +15,7 @@ Route::middleware(['guest'])->group(function () {
     
     Route::get('/register', [RegisterController::class, 'showRegistrationForm'])->name('register');
     Route::post('/register', [RegisterController::class, 'register']);
-use App\Http\Controllers\ProfilController;
+});
 
 // --- HALAMAN DEPAN (UNTUK PEMBELI) ---
 Route::get('/', function () {
