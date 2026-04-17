@@ -8,46 +8,27 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\ProfilController;
 
-/*
-|--------------------------------------------------------------------------
-| GUEST ROUTES (Belum Login)
-|--------------------------------------------------------------------------
-*/
+// --- 1. GUEST ROUTES (Hanya untuk yang BELUM Login) ---
 Route::middleware(['guest'])->group(function () {
-
     Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
     Route::post('/login', [LoginController::class, 'login']);
-
+    
     Route::get('/register', [RegisterController::class, 'showRegistrationForm'])->name('register');
     Route::post('/register', [RegisterController::class, 'register']);
 });
 
-
-/*
-|--------------------------------------------------------------------------
-| PUBLIC ROUTES
-|--------------------------------------------------------------------------
-*/
-
+// --- REDIRECT UTAMA ---
+// Jika user buka alamat utama, lempar ke login
 Route::get('/', function () {
-    return view('kantin');
-})->name('home');
+    return redirect()->route('login');
+})->name('home'); 
 
-Route::get('/profil', [ProfilController::class, 'index'])->name('profil');
+// Penyelamat jika Laravel redirect otomatis ke /home
+Route::get('/home', function () {
+    return redirect()->route('siswa.dashboard');
+});
 
-Route::get('/dapur-bu-sitti', fn() => view('dapur-bu-sitti'));
-Route::get('/pak-kumis', fn() => view('pak-kumis'));
-Route::get('/geprek-mas-mono', fn() => view('geprek-pak-amiin'));
-Route::get('/dapoer-mbak-ros', fn() => view('dapoer-mbak-ros'));
-Route::get('/cak-anwar', fn() => view('cak-anwar'));
-Route::get('/seblak-teh-santy', fn() => view('seblak-teh-santy'));
-
-
-/*
-|--------------------------------------------------------------------------
-| PROTECTED ROUTES (Sudah Login)
-|--------------------------------------------------------------------------
-*/
+// --- 2. PROTECTED ROUTES (Wajib Login) ---
 Route::middleware(['auth'])->group(function () {
 
     Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
@@ -57,10 +38,27 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/toko/dashboard', fn() => view('dashboard.penjual'))->name('penjual.dashboard');
     Route::get('/siswa/dashboard', fn() => view('kantin'))->name('siswa.dashboard');
 
-    // Dashboard umum
-    Route::get('/dashboard', fn() => view('dashboard'))->name('dashboard');
+    Route::get('/toko/dashboard', function () {
+        return view('dashboard.penjual'); 
+    })->name('penjual.dashboard');
 
-    // Menu CRUD
+    Route::get('/siswa/dashboard', function () {
+        return view('kantin'); 
+    })->name('siswa.dashboard');
+
+    // --- Halaman Kantin & Profil ---
+    Route::get('/kantin', function () { return view('kantin'); })->name('kantin.index');
+    Route::get('/profil', [ProfilController::class, 'index'])->name('profil');
+
+    // Rute Toko Spesifik
+    Route::get('/dapur-bu-sitti', function () { return view('dapur-bu-sitti'); })->name('kantin.sitti');
+    Route::get('/pak-kumis', function () { return view('pak-kumis'); })->name('kantin.kumis');
+    Route::get('/geprek-mas-mono', function () { return view('geprek-pak-amiin'); })->name('kantin.geprek');
+    Route::get('/dapoer-mbak-ros', function () { return view('dapoer-mbak-ros'); })->name('kantin.ros');
+    Route::get('/cak-anwar', function () { return view('cak-anwar'); })->name('kantin.anwar');
+    Route::get('/seblak-teh-santy', function () { return view('seblak-teh-santy'); })->name('kantin.santy');
+
+    // --- Fitur Penjual/Admin ---
     Route::resource('menu', MenuController::class);
 
     // Orders
