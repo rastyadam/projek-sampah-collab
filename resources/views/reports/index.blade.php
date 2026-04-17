@@ -16,7 +16,7 @@
                 <input type="date" name="end_date" value="{{ $end_date->format('Y-m-d') }}" class="w-full border rounded px-3 py-2">
             </div>
             <div class="flex items-end">
-                <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 w-full">Filter</button>
+                <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 w-full">Cetak Laporan</button>
             </div>
         </div>
     </form>

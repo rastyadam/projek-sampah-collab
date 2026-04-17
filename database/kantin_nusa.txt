@@ -1,0 +1,261 @@
+Updatecheck<|||>3<|||>1
+DoUsageStatistics<|||>3<|||>1
+UpdatecheckLastrun<|||>1<|||>2026-04-03 13:13:13
+LastUsageStatisticCall<|||>1<|||>2026-03-10 11:43:29
+LastSessions<|||>1<|||>Unnamed
+LastActiveSession<|||>1<|||>Unnamed
+ColWidths_connform.ListSessions<|||>1<|||>163,50,50,50,50,50,10
+ColsVisible_connform.ListSessions<|||>1<|||>0,1,4,6
+ColPositions_connform.ListSessions<|||>1<|||>0,1,2,3,4,5,6
+ColSort_connform.ListSessions<|||>1<|||>0,0
+MainWinOnMonitor<|||>3<|||>0
+ColWidths_MainForm.ListDatabases<|||>1<|||>150,80,50,50,50,50,50,50,50,50,120
+ColsVisible_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColPositions_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColSort_MainForm.ListDatabases<|||>1<|||>0,0
+ColWidths_MainForm.ListVariables<|||>1<|||>160,200,316
+ColsVisible_MainForm.ListVariables<|||>1<|||>0,1,2
+ColPositions_MainForm.ListVariables<|||>1<|||>0,1,2
+ColSort_MainForm.ListVariables<|||>1<|||>0,0
+ColWidths_MainForm.ListStatus<|||>1<|||>160,316,100,100
+ColsVisible_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColPositions_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColSort_MainForm.ListStatus<|||>1<|||>0,0
+ColWidths_MainForm.ListProcesses<|||>1<|||>70,80,80,80,80,50,50,186
+ColsVisible_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColPositions_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColSort_MainForm.ListProcesses<|||>1<|||>0,1
+ColWidths_MainForm.ListCommandStats<|||>1<|||>120,100,100,100,256
+ColsVisible_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColPositions_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColSort_MainForm.ListCommandStats<|||>1<|||>1,1
+ColWidths_MainForm.ListTables<|||>1<|||>120,70,70,120,120,70,100,50,70,70,70,70,70,90,120,70,70,70,50
+ColsVisible_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,18
+ColPositions_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
+ColSort_MainForm.ListTables<|||>1<|||>0,0
+ColWidths_frmTableEditor.listColumns<|||>1<|||>79,100,168,90,60,65,50,127,130,152,100,100,50,50,50
+ColsVisible_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14
+ColPositions_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14
+ColSort_frmTableEditor.listColumns<|||>1<|||>0,0
+ColWidths_frmTableEditor.treeIndexes<|||>1<|||>234,100,80,120,80
+ColsVisible_frmTableEditor.treeIndexes<|||>1<|||>0,1,2,3,4
+ColPositions_frmTableEditor.treeIndexes<|||>1<|||>0,1,2,3,4
+ColSort_frmTableEditor.treeIndexes<|||>1<|||>-1,0
+ColWidths_frmTableEditor.listForeignKeys<|||>1<|||>196,80,100,80,80,84
+ColsVisible_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColPositions_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColSort_frmTableEditor.listForeignKeys<|||>1<|||>-1,0
+ColWidths_frmTableEditor.listCheckConstraints<|||>1<|||>200,420
+ColsVisible_frmTableEditor.listCheckConstraints<|||>1<|||>0,1
+ColPositions_frmTableEditor.listCheckConstraints<|||>1<|||>0,1
+ColSort_frmTableEditor.listCheckConstraints<|||>1<|||>-1,0
+DisplayBLOBsAsText<|||>3<|||>0
+SessionManager_WindowLeft<|||>3<|||>623
+SessionManager_WindowTop<|||>3<|||>178
+DataFontSize<|||>3<|||>12
+FontSize<|||>3<|||>10
+dbtreewidth<|||>3<|||>324
+MainWinMaximized<|||>3<|||>1
+Usermanager_WindowHeight<|||>3<|||>486
+ColWidths_UserManagerForm.listUsers<|||>1<|||>96,80
+ColsVisible_UserManagerForm.listUsers<|||>1<|||>0,1
+ColPositions_UserManagerForm.listUsers<|||>1<|||>0,1
+ColSort_UserManagerForm.listUsers<|||>1<|||>0,0
+DateTimeEditor_CursorPos_Type4<|||>3<|||>0
+SessionManager_WindowHeight<|||>3<|||>472
+FileDialogEncoding_MainForm<|||>3<|||>0
+SQLFile0<|||>1<|||>D:\laragon\www\app-siswa1\app-siswa1\database\db_siswa_kursus.sql
+SQLFile1<|||>1<|||>D:\laragon\www\app-siswa1\app-siswa1\database\heidi.sql4.sql
+SQLFile2<|||>1<|||>D:\laragon\www\app-siswa1\app-siswa1\database\heidi.sql3.sql
+SQLFile3<|||>1<|||>D:\laragon\www\app-siswa1\app-siswa1\database\heidisql2.sql
+SQLFile4<|||>1<|||>D:\laragon\www\app-siswa1\app-siswa1\database\heidisql.sql
+SQLFile5<|||>1<|||>C:\Users\selvi\AppData\Roaming\HeidiSQL\Backups\query-tab-2026-03-17_11-56-31-307.sql
+SQLFile6<|||>1<|||>C:\Users\selvi\AppData\Roaming\HeidiSQL\Backups\query-tab-2026-03-12_10-53-41-118.sql
+Servers\SERVER-LOCAL\SessionCreated<|||>1<|||>2026-03-10 11:44:11
+Servers\SERVER-LOCAL\Host<|||>1<|||>127.0.0.1
+Servers\SERVER-LOCAL\WindowsAuth<|||>3<|||>0
+Servers\SERVER-LOCAL\CleartextPluginEnabled<|||>3<|||>0
+Servers\SERVER-LOCAL\User<|||>1<|||>root
+Servers\SERVER-LOCAL\Password<|||>1<|||>6
+Servers\SERVER-LOCAL\LoginPrompt<|||>3<|||>0
+Servers\SERVER-LOCAL\Port<|||>1<|||>3306
+Servers\SERVER-LOCAL\NetType<|||>3<|||>0
+Servers\SERVER-LOCAL\Compressed<|||>3<|||>0
+Servers\SERVER-LOCAL\LocalTimeZone<|||>3<|||>0
+Servers\SERVER-LOCAL\QueryTimeout<|||>3<|||>30
+Servers\SERVER-LOCAL\KeepAlive<|||>3<|||>20
+Servers\SERVER-LOCAL\FullTableStatus<|||>3<|||>1
+Servers\SERVER-LOCAL\Databases<|||>1<|||>
+Servers\SERVER-LOCAL\Library<|||>1<|||>libmariadb.dll
+Servers\SERVER-LOCAL\Comment<|||>1<|||>
+Servers\SERVER-LOCAL\StartupScriptFilename<|||>1<|||>
+Servers\SERVER-LOCAL\TreeBackground<|||>3<|||>536870911
+Servers\SERVER-LOCAL\SSHtunnelActive<|||>3<|||>0
+Servers\SERVER-LOCAL\SshExecutable<|||>1<|||>
+Servers\SERVER-LOCAL\SSHtunnelHost<|||>1<|||>
+Servers\SERVER-LOCAL\SSHtunnelHostPort<|||>3<|||>22
+Servers\SERVER-LOCAL\SSHtunnelUser<|||>1<|||>
+Servers\SERVER-LOCAL\SSHtunnelPassword<|||>1<|||>7
+Servers\SERVER-LOCAL\SSHtunnelTimeout<|||>3<|||>4
+Servers\SERVER-LOCAL\SSHtunnelPrivateKey<|||>1<|||>
+Servers\SERVER-LOCAL\SSHtunnelPort<|||>3<|||>3307
+Servers\SERVER-LOCAL\SSL_Active<|||>3<|||>0
+Servers\SERVER-LOCAL\SSL_Key<|||>1<|||>
+Servers\SERVER-LOCAL\SSL_Cert<|||>1<|||>
+Servers\SERVER-LOCAL\SSL_CA<|||>1<|||>
+Servers\SERVER-LOCAL\SSL_Cipher<|||>1<|||>
+Servers\SERVER-LOCAL\SSL_Verification<|||>3<|||>2
+Servers\SERVER-LOCAL\IgnoreDatabasePattern<|||>1<|||>
+Servers\SERVER-LOCAL\LogFileDdl<|||>3<|||>0
+Servers\SERVER-LOCAL\LogFileDml<|||>3<|||>0
+Servers\SERVER-LOCAL\LogFilePath<|||>1<|||>C:\Users\selvi\AppData\Roaming\HeidiSQL\Logs\%session\%db\%y%m%d.sql
+Servers\SERVER-LOCAL\ServerVersionFull<|||>1<|||>8.0.30 - MySQL Community Server - GPL
+Servers\SERVER-LOCAL\ConnectCount<|||>3<|||>5
+Servers\SERVER-LOCAL\ServerVersion<|||>3<|||>80030
+Servers\SERVER-LOCAL\LastConnect<|||>1<|||>2026-03-30 13:44:10
+Servers\SERVER-LOCAL\lastUsedDB<|||>1<|||>kantin_nusa
+Servers\SERVER-LOCAL\QueryHistory\1<|||>1<|||>2026-03-12 11:12:45|projeksampah|172|CREATE TABLE jenis (<{{{><}}}>    id INT AUTO_INCREMENT PRIMARY KEY,<{{{><}}}>    nama VARCHAR(100)<{{{><}}}>);
+Servers\SERVER-LOCAL\QueryHistory\2<|||>1<|||>2026-03-17 12:00:30|kantin_nusa|0|SELECT * <{{{><}}}>FROM categories <{{{><}}}>WHERE 1=1 ;
+Servers\SERVER-LOCAL\QueryHistory\3<|||>1<|||>2026-03-17 12:01:02|kantin_nusa|0|SELECT * <{{{><}}}>FROM categories <{{{><}}}>WHERE 1=1 ;<{{{><}}}>SELECT * FROM `information_schema`.`COLUMNS` WHERE TABLE_SCHEMA='kantin_nusa' AND TABLE_NAME='login_users' ORDER BY ORDINAL_POSITION;
+Servers\SERVER-LOCAL\QueryHistory\5<|||>1<|||>2026-03-17 12:10:26|information_schema|94|SELECT * <{{{><}}}>FROM kantin_nusa.categories <{{{><}}}>WHERE 1=1 ;<{{{><}}}>SELECT * <{{{><}}}>FROM `information_schema`.`COLUMNS` <{{{><}}}>WHERE TABLE_SCHEMA='kantin_nusa' AND <{{{><}}}>      TABLE_NAME='login_users' ORDER BY ORDINAL_POSITION;<{{{><}}}><{{{><}}}>SELECT * <{{{><}}}>FROM `information_schema`.`TABLES` <{{{><}}}>WHERE 1;      
+Servers\SERVER-LOCAL\QueryHistory\4<|||>1<|||>2026-03-17 12:11:46|kantin_nusa|0|SELECT * <{{{><}}}>FROM kantin_nusa.categories <{{{><}}}>WHERE 1=1 ;<{{{><}}}><{{{><}}}>SELECT * <{{{><}}}>FROM kantin_nusa.products <{{{><}}}>WHERE 1=1 ;       
+Servers\SERVER-LOCAL\QueryHistory\7<|||>1<|||>2026-03-17 12:20:42|kantin_nusa|0|SELECT * <{{{><}}}>FROM kantin_nusa.categories <{{{><}}}>WHERE 1=1 ;<{{{><}}}><{{{><}}}><{{{><}}}>SELECT ID,<{{{><}}}>       STORE_ID,<{{{><}}}>       CATEGORY_ID,<{{{><}}}>       NAME,<{{{><}}}>       PRICE <{{{><}}}>FROM kantin_nusa.products <{{{><}}}>WHERE 1=1 ;      
+Servers\SERVER-LOCAL\QueryHistory\6<|||>1<|||>2026-03-17 12:25:39|kantin_nusa|109|SELECT ID AS KODE,<{{{><}}}>       STORE_ID AS KODE_CABANG,<{{{><}}}>       CATEGORY_ID AS KODE_KATEGORI,<{{{><}}}>       NAME AS NAMA,<{{{><}}}>       PRICE AS HARGA<{{{><}}}>FROM kantin_nusa.products <{{{><}}}>WHERE 1=1 ; 
+Servers\SERVER-LOCAL\QueryHistory\8<|||>1<|||>2026-03-17 12:26:19|kantin_nusa|78|SELECT ID AS KODE,<{{{><}}}>       CATEGORY_ID AS KODE_KATEGORI,<{{{><}}}>       NAME AS NAMA,<{{{><}}}>       PRICE AS HARGA<{{{><}}}>FROM kantin_nusa.products <{{{><}}}>WHERE 1=1 ; 
+Servers\SERVER-LOCAL\QueryHistory\9<|||>1<|||>2026-03-17 12:27:58|kantin_nusa|0|SELECT ID AS KODE,<{{{><}}}>       CATEGORY_ID AS KODE_KATEGORI,<{{{><}}}>       UPPER(NAME) AS NAMA,<{{{><}}}>       PRICE AS HARGA<{{{><}}}>FROM kantin_nusa.products <{{{><}}}>WHERE 1=1 ; 
+Servers\SERVER-LOCAL\QueryHistory\10<|||>1<|||>2026-03-17 12:31:49|kantin_nusa|125|SELECT  LPAD(ID, 4, '0') AS KODE,<{{{><}}}>       CATEGORY_ID AS KODE_KATEGORI,<{{{><}}}>       UPPER(NAME) AS NAMA,<{{{><}}}>       PRICE AS HARGA<{{{><}}}>FROM kantin_nusa.products <{{{><}}}>WHERE 1=1 ; 
+Servers\SERVER-LOCAL\QueryHistory\11<|||>1<|||>2026-03-17 12:38:00|kantin_nusa|16|SELECT  LPAD(t1.ID, 4, '0') AS KODE,<{{{><}}}>       t1.CATEGORY_ID AS KODE_KATEGORI,<{{{><}}}>       UPPER(t1.NAME) AS NAMA,<{{{><}}}>       t1.PRICE AS HARGA<{{{><}}}>FROM kantin_nusa.products t1 <{{{><}}}>LEFT JOIN kantin_nusa.categories t2 ON ( t1.CATEGORY_ID = t2.ID) <{{{><}}}>WHERE 1=1 ; 
+Servers\SERVER-LOCAL\QueryHistory\12<|||>1<|||>2026-03-17 12:39:08|kantin_nusa|16|SELECT  LPAD(t1.ID, 4, '0') AS KODE,<{{{><}}}>       t1.CATEGORY_ID AS KODE_KATEGORI,<{{{><}}}>       t2.name AS NAMA_KATEGORI,<{{{><}}}>       UPPER(t1.NAME) AS NAMA,<{{{><}}}>       t1.PRICE AS HARGA<{{{><}}}>FROM kantin_nusa.products t1 <{{{><}}}>LEFT JOIN kantin_nusa.categories t2 ON ( t1.CATEGORY_ID = t2.ID) <{{{><}}}>WHERE 1=1 ; 
+Servers\SERVER-LOCAL\QueryHistory\13<|||>1<|||>2026-03-17 12:40:16|kantin_nusa|0|SELECT  LPAD(t1.ID, 4, '0') AS KODE,<{{{><}}}>       t1.CATEGORY_ID AS KODE_KATEGORI,<{{{><}}}>       UPPER(t2.name) AS NAMA_KATEGORI,<{{{><}}}>       UPPER(t1.NAME) AS NAMA,<{{{><}}}>       t1.PRICE AS HARGA<{{{><}}}>FROM kantin_nusa.products t1 <{{{><}}}>LEFT JOIN kantin_nusa.categories t2 ON ( t1.CATEGORY_ID = t2.ID) <{{{><}}}>WHERE 1=1 ; 
+Servers\SERVER-LOCAL\QueryHistory\14<|||>1<|||>2026-03-17 12:42:35|kantin_nusa|188|DROP VIEW  IF EXISTS view_products; <{{{><}}}>DROP TABLE IF EXISTS view_products;    <{{{><}}}>CREATE OR REPLACE VIEW view_products AS <{{{><}}}>SELECT  LPAD(t1.ID, 4, '0') AS KODE,<{{{><}}}>       t1.CATEGORY_ID AS KODE_KATEGORI,<{{{><}}}>       UPPER(t2.name) AS NAMA_KATEGORI,<{{{><}}}>       UPPER(t1.NAME) AS NAMA,<{{{><}}}>       t1.PRICE AS HARGA<{{{><}}}>FROM kantin_nusa.products t1 <{{{><}}}>LEFT JOIN kantin_nusa.categories t2 ON ( t1.CATEGORY_ID = t2.ID) <{{{><}}}>WHERE 1=1<{{{><}}}>;<{{{><}}}><{{{><}}}>SELECT * <{{{><}}}>FROM view_products<{{{><}}}>WHERE 1=1;
+Servers\SERVER-LOCAL\QueryHistory\15<|||>1<|||>2026-03-17 12:44:10|kantin_nusa|46|DROP VIEW  IF EXISTS view_products; <{{{><}}}>DROP TABLE IF EXISTS view_products;    <{{{><}}}>CREATE OR REPLACE VIEW view_products AS <{{{><}}}>SELECT  LPAD(t1.ID, 4, '0') AS KODE,<{{{><}}}>       LPAD(t1.CATEGORY_ID, 2, '0') AS KODE_KATEGORI,<{{{><}}}>       UPPER(t2.name) AS NAMA_KATEGORI,<{{{><}}}>       UPPER(t1.NAME) AS NAMA,<{{{><}}}>       t1.PRICE AS HARGA<{{{><}}}>FROM kantin_nusa.products t1 <{{{><}}}>LEFT JOIN kantin_nusa.categories t2 ON ( t1.CATEGORY_ID = t2.ID) <{{{><}}}>WHERE 1=1<{{{><}}}>;<{{{><}}}><{{{><}}}>SELECT * <{{{><}}}>FROM view_products<{{{><}}}>WHERE 1=1;
+Servers\siswa_kursus\SessionCreated<|||>1<|||>2026-03-31 19:14:19
+Servers\siswa_kursus\Host<|||>1<|||>127.0.0.1
+Servers\siswa_kursus\WindowsAuth<|||>3<|||>0
+Servers\siswa_kursus\CleartextPluginEnabled<|||>3<|||>0
+Servers\siswa_kursus\User<|||>1<|||>root
+Servers\siswa_kursus\Password<|||>1<|||>1
+Servers\siswa_kursus\LoginPrompt<|||>3<|||>0
+Servers\siswa_kursus\Port<|||>1<|||>3306
+Servers\siswa_kursus\NetType<|||>3<|||>0
+Servers\siswa_kursus\Compressed<|||>3<|||>0
+Servers\siswa_kursus\LocalTimeZone<|||>3<|||>0
+Servers\siswa_kursus\QueryTimeout<|||>3<|||>30
+Servers\siswa_kursus\KeepAlive<|||>3<|||>20
+Servers\siswa_kursus\FullTableStatus<|||>3<|||>1
+Servers\siswa_kursus\Databases<|||>1<|||>
+Servers\siswa_kursus\Library<|||>1<|||>libmariadb.dll
+Servers\siswa_kursus\Comment<|||>1<|||>
+Servers\siswa_kursus\StartupScriptFilename<|||>1<|||>
+Servers\siswa_kursus\TreeBackground<|||>3<|||>536870911
+Servers\siswa_kursus\SSHtunnelActive<|||>3<|||>0
+Servers\siswa_kursus\SshExecutable<|||>1<|||>
+Servers\siswa_kursus\SSHtunnelHost<|||>1<|||>
+Servers\siswa_kursus\SSHtunnelHostPort<|||>3<|||>22
+Servers\siswa_kursus\SSHtunnelUser<|||>1<|||>
+Servers\siswa_kursus\SSHtunnelPassword<|||>1<|||>1
+Servers\siswa_kursus\SSHtunnelTimeout<|||>3<|||>4
+Servers\siswa_kursus\SSHtunnelPrivateKey<|||>1<|||>
+Servers\siswa_kursus\SSHtunnelPort<|||>3<|||>3307
+Servers\siswa_kursus\SSL_Active<|||>3<|||>0
+Servers\siswa_kursus\SSL_Key<|||>1<|||>
+Servers\siswa_kursus\SSL_Cert<|||>1<|||>
+Servers\siswa_kursus\SSL_CA<|||>1<|||>
+Servers\siswa_kursus\SSL_Cipher<|||>1<|||>
+Servers\siswa_kursus\SSL_Verification<|||>3<|||>2
+Servers\siswa_kursus\IgnoreDatabasePattern<|||>1<|||>
+Servers\siswa_kursus\LogFileDdl<|||>3<|||>0
+Servers\siswa_kursus\LogFileDml<|||>3<|||>0
+Servers\siswa_kursus\LogFilePath<|||>1<|||>C:\Users\selvi\AppData\Roaming\HeidiSQL\Logs\%session\%db\%y%m%d.sql
+Servers\siswa_kursus\ServerVersionFull<|||>1<|||>8.0.30 - MySQL Community Server - GPL
+Servers\siswa_kursus\ConnectCount<|||>3<|||>1
+Servers\siswa_kursus\ServerVersion<|||>3<|||>80030
+Servers\siswa_kursus\LastConnect<|||>1<|||>2026-03-31 19:14:59
+Servers\siswa_kursus\lastUsedDB<|||>1<|||>pak_radit
+Servers\Unnamed\SessionCreated<|||>1<|||>2026-03-31 19:18:28
+Servers\Unnamed\Host<|||>1<|||>127.0.0.1
+Servers\Unnamed\WindowsAuth<|||>3<|||>0
+Servers\Unnamed\CleartextPluginEnabled<|||>3<|||>0
+Servers\Unnamed\User<|||>1<|||>root
+Servers\Unnamed\Password<|||>1<|||>5
+Servers\Unnamed\LoginPrompt<|||>3<|||>0
+Servers\Unnamed\Port<|||>1<|||>3306
+Servers\Unnamed\NetType<|||>3<|||>0
+Servers\Unnamed\Compressed<|||>3<|||>0
+Servers\Unnamed\LocalTimeZone<|||>3<|||>0
+Servers\Unnamed\QueryTimeout<|||>3<|||>30
+Servers\Unnamed\KeepAlive<|||>3<|||>20
+Servers\Unnamed\FullTableStatus<|||>3<|||>1
+Servers\Unnamed\Databases<|||>1<|||>
+Servers\Unnamed\Library<|||>1<|||>libmariadb.dll
+Servers\Unnamed\Comment<|||>1<|||>
+Servers\Unnamed\StartupScriptFilename<|||>1<|||>
+Servers\Unnamed\TreeBackground<|||>3<|||>536870911
+Servers\Unnamed\SSHtunnelActive<|||>3<|||>0
+Servers\Unnamed\SshExecutable<|||>1<|||>
+Servers\Unnamed\SSHtunnelHost<|||>1<|||>
+Servers\Unnamed\SSHtunnelHostPort<|||>3<|||>22
+Servers\Unnamed\SSHtunnelUser<|||>1<|||>
+Servers\Unnamed\SSHtunnelPassword<|||>1<|||>8
+Servers\Unnamed\SSHtunnelTimeout<|||>3<|||>4
+Servers\Unnamed\SSHtunnelPrivateKey<|||>1<|||>
+Servers\Unnamed\SSHtunnelPort<|||>3<|||>3307
+Servers\Unnamed\SSL_Active<|||>3<|||>0
+Servers\Unnamed\SSL_Key<|||>1<|||>
+Servers\Unnamed\SSL_Cert<|||>1<|||>
+Servers\Unnamed\SSL_CA<|||>1<|||>
+Servers\Unnamed\SSL_Cipher<|||>1<|||>
+Servers\Unnamed\SSL_Verification<|||>3<|||>2
+Servers\Unnamed\IgnoreDatabasePattern<|||>1<|||>
+Servers\Unnamed\LogFileDdl<|||>3<|||>0
+Servers\Unnamed\LogFileDml<|||>3<|||>0
+Servers\Unnamed\LogFilePath<|||>1<|||>C:\Users\selvi\AppData\Roaming\HeidiSQL\Logs\%session\%db\%y%m%d.sql
+Servers\Unnamed\ServerVersionFull<|||>1<|||>8.0.30 - MySQL Community Server - GPL
+Servers\Unnamed\ConnectCount<|||>3<|||>2
+Servers\Unnamed\ServerVersion<|||>3<|||>80030
+Servers\Unnamed\LastConnect<|||>1<|||>2026-04-03 13:13:23
+Servers\Unnamed\lastUsedDB<|||>1<|||>kantin_nusa
+Servers\Unnamed\QueryHistory\1<|||>1<|||>2026-03-31 19:35:40|db_siswa_kursus|297|CREATE TABLE tbl_siswa (<{{{><}}}>    id INT AUTO_INCREMENT PRIMARY KEY,<{{{><}}}>    nama VARCHAR(100),<{{{><}}}>    alamat TEXT,<{{{><}}}>    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP<{{{><}}}>);
+Servers\Unnamed\QueryHistory\2<|||>1<|||>2026-03-31 19:47:26|db_siswa_kursus|172|CREATE TABLE users (<{{{><}}}>    id INT AUTO_INCREMENT PRIMARY KEY,<{{{><}}}>    username VARCHAR(50),<{{{><}}}>    password VARCHAR(255)<{{{><}}}>);
+Servers\Unnamed\QueryHistory\4<|||>1<|||>2026-03-31 19:47:47|db_siswa_kursus|0|INSERT INTO users (username, password) <{{{><}}}>VALUES ('admin', '123');
+Servers\Unnamed\QueryHistory\3<|||>1<|||>2026-03-31 21:10:21|db_siswa_kursus|78|DROP DATABASE db_siswa_kursus;<{{{><}}}>CREATE DATABASE db_siswa_kursus;
+Servers\Unnamed\QueryHistory\5<|||>1<|||>2026-03-31 21:17:15|db_siswa_kursus|94|CREATE TABLE users (<{{{><}}}>    id INT AUTO_INCREMENT PRIMARY KEY,<{{{><}}}>    username VARCHAR(50),<{{{><}}}>    password VARCHAR(100)<{{{><}}}>);
+Servers\Unnamed\QueryHistory\6<|||>1<|||>2026-03-31 21:17:28|db_siswa_kursus|16|INSERT INTO users (username, password) VALUES ('admin', '123');
+Servers\Unnamed-1\SessionCreated<|||>1<|||>2026-03-31 19:23:48
+Servers\Unnamed-1\Host<|||>1<|||>127.0.0.1
+Servers\Unnamed-1\WindowsAuth<|||>3<|||>0
+Servers\Unnamed-1\CleartextPluginEnabled<|||>3<|||>0
+Servers\Unnamed-1\User<|||>1<|||>root
+Servers\Unnamed-1\Password<|||>1<|||>7
+Servers\Unnamed-1\LoginPrompt<|||>3<|||>0
+Servers\Unnamed-1\Port<|||>1<|||>3306
+Servers\Unnamed-1\NetType<|||>3<|||>0
+Servers\Unnamed-1\Compressed<|||>3<|||>0
+Servers\Unnamed-1\LocalTimeZone<|||>3<|||>0
+Servers\Unnamed-1\QueryTimeout<|||>3<|||>30
+Servers\Unnamed-1\KeepAlive<|||>3<|||>20
+Servers\Unnamed-1\FullTableStatus<|||>3<|||>1
+Servers\Unnamed-1\Databases<|||>1<|||>
+Servers\Unnamed-1\Library<|||>1<|||>libmariadb.dll
+Servers\Unnamed-1\Comment<|||>1<|||>
+Servers\Unnamed-1\StartupScriptFilename<|||>1<|||>
+Servers\Unnamed-1\TreeBackground<|||>3<|||>536870911
+Servers\Unnamed-1\SSHtunnelActive<|||>3<|||>0
+Servers\Unnamed-1\SshExecutable<|||>1<|||>
+Servers\Unnamed-1\SSHtunnelHost<|||>1<|||>
+Servers\Unnamed-1\SSHtunnelHostPort<|||>3<|||>22
+Servers\Unnamed-1\SSHtunnelUser<|||>1<|||>
+Servers\Unnamed-1\SSHtunnelPassword<|||>1<|||>7
+Servers\Unnamed-1\SSHtunnelTimeout<|||>3<|||>4
+Servers\Unnamed-1\SSHtunnelPrivateKey<|||>1<|||>
+Servers\Unnamed-1\SSHtunnelPort<|||>3<|||>3307
+Servers\Unnamed-1\SSL_Active<|||>3<|||>0
+Servers\Unnamed-1\SSL_Key<|||>1<|||>
+Servers\Unnamed-1\SSL_Cert<|||>1<|||>
+Servers\Unnamed-1\SSL_CA<|||>1<|||>
+Servers\Unnamed-1\SSL_Cipher<|||>1<|||>
+Servers\Unnamed-1\SSL_Verification<|||>3<|||>2
+Servers\Unnamed-1\IgnoreDatabasePattern<|||>1<|||>
+Servers\Unnamed-1\LogFileDdl<|||>3<|||>0
+Servers\Unnamed-1\LogFileDml<|||>3<|||>0
+Servers\Unnamed-1\LogFilePath<|||>1<|||>C:\Users\selvi\AppData\Roaming\HeidiSQL\Logs\%session\%db\%y%m%d.sql

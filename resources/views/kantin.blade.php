@@ -636,8 +636,8 @@ small {
         </div>
         <span class="position-absolute bottom-0 end-0 bg-success border border-2 border-white rounded-circle p-2 indicator-online" title="Online"></span>
     </div>
-    <h5 class="mt-3 mb-0 fw-bold text-white">Admin Kantin</h5>
-    <small class="text-warning opacity-75 fw-medium">Administrator Utama</small>
+    <h5 class="mt-3 mb-0 fw-bold text-white">Adrian Wijaya</h5>
+    <small class="text-warning opacity-75 fw-medium">Siswa XI-RPL</small>
 </div>
 <hr>
 
@@ -645,37 +645,12 @@ small {
         <li>
             <a href="#"><i class="fas fa-home"></i> Beranda</a>
         </li>
-        <li>
-            <a href="#"><i class="fas fa-utensils"></i> Menu Kantin</a>
-        </li>
-        
-        <li>
-            <a href="#" class="d-flex justify-content-between align-items-center">
-                <span><i class="fas fa-shopping-basket"></i> Pesanan Masuk</span>
-                <span class="badge bg-danger rounded-pill pulse-badge"></span>
-            </a>
-        </li>
-
-        <li>
-            <a href="#"><i class="fas fa-wallet"></i> Transaksi Saldo</a>
-        </li>
-
-        <li>
-            <a href="#"><i class="fas fa-percentage"></i> Promo & Diskon</a>
-        </li>
-
-        <li>
-            <a href="#"><i class="fas fa-chart-line"></i> Laporan Penjualan</a>
-        </li>
-
-        
-        <hr class="border-light opacity-25 my-4">
-        
-        <li>
-            <a href="#" class="text-warning fw-bold">
-                <i class="fas fa-sign-out-alt"></i> Logout
-            </a>
-        </li>
+       <li>
+    <a href="{{ route('profil') }}">
+        <i class="fas fa-user"></i> Profil Siswa
+    </a>
+</li>
+      
     </ul>
 </div>
 
