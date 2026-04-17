@@ -1026,6 +1026,118 @@ small {
     </div>
     <div class="menu-indicators d-flex justify-content-center gap-2 mt-4" id="menuDots"></div>
 </section>
+<div class="menu-indicators d-flex justify-content-center gap-2 mt-4 mb-5" id="menuDots"></div>
+
+<section class="py-5" style="background: #fff;">
+    <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+            <span class="badge rounded-pill px-3 py-2 mb-2" style="background: rgba(122, 29, 29, 0.1); color: #7a1d1d;">FEEDBACK</span>
+            <h2 class="fw-bold" style="color: #4a1111;">Apa Kata Siswa?</h2>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="p-4 rounded-4 border-0 shadow-sm h-100" style="background: #f8f9fa;">
+                    <i class="fas fa-quote-left text-warning mb-3 fa-2x"></i>
+                    <p class="small text-muted mb-4">"Gak perlu lari-larian lagi pas bel bunyi cuma buat antre. Pesan dari kelas, sampai kantin tinggal ambil!"</p>
+                    <div class="d-flex align-items-center gap-2">
+                        <div class="fw-bold small text-dark">Rizky - <span class="text-secondary">XI RPL</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="p-4 rounded-4 border-0 shadow-sm h-100" style="background: #f8f9fa;">
+                    <i class="fas fa-quote-left text-warning mb-3 fa-2x"></i>
+                    <p class="small text-muted mb-4">"Sistem pembayarannya keren banget. Praktis buat kita yang jarang bawa uang cash ke sekolah."</p>
+                    <div class="d-flex align-items-center gap-2">
+                        <div class="fw-bold small text-dark">Alya - <span class="text-secondary">X AKL</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="p-4 rounded-4 border-0 shadow-sm h-100" style="background: #f8f9fa;">
+                    <i class="fas fa-quote-left text-warning mb-3 fa-2x"></i>
+                    <p class="small text-muted mb-4">"Tampilannya user-friendly banget. Kantin digital terbaik yang pernah ada di sekolah!"</p>
+                    <div class="d-flex align-items-center gap-2">
+                        <div class="fw-bold small text-dark">Dimas - <span class="text-secondary">XII TKJ</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-5" style="background: var(--cream-nusa);">
+    <div class="container">
+        <div class="cta-box text-center" data-aos="flip-up">
+            <h2 class="display-6 fw-bold mb-3" style="color: var(--maroon-nusa);">
+                Lapar Menyerang? <span class="text-warning">Yuk Sikat!</span>
+            </h2>
+            <p class="text-muted mb-4 mx-auto" style="max-width: 600px;">
+                Jangan biarkan perut keroncongan ganggu fokus belajarmu. Pilih menu favoritmu sekarang dan ambil tanpa perlu mengantre.
+            </p>
+            <div class="d-flex justify-content-center">
+                <button class="btn-nusa-solid shadow-lg px-5 py-3 fs-5">
+                    <i class="fas fa-shopping-cart me-2"></i> Mulai Pesan Sekarang
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="pt-5 pb-4 text-white" style="background: #4a1111;">
+    <div class="container">
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <h5 class="fw-bold mb-3 text-warning">
+                    <i class="fas fa-utensils me-2"></i> KANTIN NUSA
+                </h5>
+                <p class="small opacity-75">
+                    Satu Klik, Sejuta Rasa. Solusi kantin digital modern untuk sekolah masa kini.
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <h6 class="fw-bold mb-3">Navigasi</h6>
+                <div class="d-flex flex-column gap-2">
+                    <a href="#" class="text-white text-decoration-none small opacity-75 hover-opacity">Beranda</a>
+                    <a href="#menu-kantin" class="text-white text-decoration-none small opacity-75 hover-opacity">Menu</a>
+                    <a href="#" class="text-white text-decoration-none small opacity-75 hover-opacity">Tentang</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <h6 class="fw-bold mb-3">Kontak</h6>
+                <p class="small mb-2 opacity-75"><i class="fas fa-map-marker-alt me-2 text-warning"></i> SMK Negeri 1 Purwosari</p>
+                <p class="small mb-2 opacity-75"><i class="fas fa-envelope me-2 text-warning"></i> kantinnusa@email.com</p>
+                <p class="small opacity-75"><i class="fas fa-phone me-2 text-warning"></i> 0812-3456-7890</p>
+            </div>
+
+        </div>
+
+        <hr class="border-light opacity-25 my-4">
+
+        <div class="text-center small opacity-50">
+            © 2026 <strong>Kantin Nusa</strong>. All Rights Reserved.
+        </div>
+    </div>
+</footer>
+
+<style>
+    .hover-opacity:hover {
+        opacity: 1 !important;
+        padding-left: 5px;
+        transition: 0.3s;
+        color: #ffc107 !important;
+    }
+    /* Tambahan agar testi card terlihat soft */
+    .shadow-sm {
+        box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    }
+</style>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
