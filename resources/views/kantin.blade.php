@@ -636,8 +636,8 @@ small {
         </div>
         <span class="position-absolute bottom-0 end-0 bg-success border; border-2 border-white rounded-circle p-2 indicator-online" title="Online"></span>
     </div>
-    <h5 class="mt-3 mb-0 fw-bold text-white">Admin Kantin</h5>
-    <small class="text-warning opacity-75 fw-medium">Administrator Utama</small>
+    <h5 class="mt-3 mb-0 fw-bold text-white">Adrian Wijaya</h5>
+    <small class="text-warning opacity-75 fw-medium">Siswa XI-RPL</small>
 </div>
 <hr>
 
@@ -678,6 +678,12 @@ small {
     </button>
 </form>
         </li>
+       <li>
+    <a href="{{ route('profil') }}">
+        <i class="fas fa-user"></i> Profil Siswa
+    </a>
+</li>
+      
     </ul>
 </div>
 
