@@ -646,29 +646,10 @@ small {
             <a href="#"><i class="fas fa-home"></i> Beranda</a>
         </li>
         <li>
-            <a href="#"><i class="fas fa-utensils"></i> Menu Kantin</a>
+            <a href="#menu-kantin"><i class="fas fa-utensils"></i> Menu Kantin</a>
         </li>
         
-        <li>
-            <a href="#" class="d-flex justify-content-between align-items-center">
-                <span><i class="fas fa-shopping-basket"></i> Pesanan Masuk</span>
-                <span class="badge bg-danger rounded-pill pulse-badge"></span>
-            </a>
-        </li>
 
-        <li>
-            <a href="#"><i class="fas fa-wallet"></i> Transaksi Saldo</a>
-        </li>
-
-        <li>
-            <a href="#"><i class="fas fa-percentage"></i> Promo & Diskon</a>
-        </li>
-
-        <li>
-            <a href="#"><i class="fas fa-chart-line"></i> Laporan Penjualan</a>
-        </li>
-
-        
         <hr class="border-light opacity-25 my-4">
         
         <form action="{{ route('logout') }}" method="POST">
@@ -858,7 +839,7 @@ small {
     </div>
 </section>
 
-<section class="container py-5">
+<section class="#menu-kantin">
     <div class="d-flex justify-content-between align-items-end mb-4" data-aos="fade-up">
         <div>
             <span class="text-warning fw-bold text-uppercase tracking-widest small">
