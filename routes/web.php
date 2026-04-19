@@ -70,3 +70,12 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('/reports', [ReportController::class, 'index'])->name('reports.index');
 });
+
+// ========== ADMIN PANEL TOKO ==========
+Route::middleware(['auth'])->prefix('admin')->name('admin.')->group(function () {
+    Route::get('/toko', [App\Http\Controllers\Admin\TokoController::class, 'index'])->name('toko.index');
+    Route::get('/toko/{toko}', [App\Http\Controllers\Admin\TokoController::class, 'show'])->name('toko.show');
+    Route::post('/toko/{toko}/approve', [App\Http\Controllers\Admin\TokoController::class, 'approve'])->name('toko.approve');
+    Route::post('/toko/{toko}/reject', [App\Http\Controllers\Admin\TokoController::class, 'reject'])->name('toko.reject');
+});
+
