@@ -102,12 +102,7 @@
         <a href="{{ route('home') }}" class="btn btn-outline-maroon flex-fill">
             <i class="fas fa-home me-2"></i> Kembali ke Kantin Nusa
         </a>
-        {{-- <form action="{{ route('logout') }}" method="POST" class="flex-fill">
-            @csrf
-            <button type="submit" class="btn btn-maroon w-100">
-                <i class="fas fa-sign-out-alt me-2"></i> Logout
-            </button>
-        </form> --}}
+        
     </div>
 </div>
 </body>
