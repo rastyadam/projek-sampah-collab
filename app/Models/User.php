@@ -6,17 +6,17 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
-use App\Models\Store;
-use App\Models\Order;
-use App\Models\Wallet;
 
 class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
 
+    /**
+     * Sesuaikan $fillable dengan kolom di database
+     */
     protected $fillable = [
-        'name',
-        'email',
+        'nama_lengkap', // Sesuai hasil ALTER TABLE tadi
+        'identitas',    // Sesuai hasil ALTER TABLE tadi
         'role',
         'password',
     ];
@@ -27,11 +27,10 @@ class User extends Authenticatable
     ];
 
     protected $casts = [
-        'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
 
-    // 🔥 RELASI HARUS DI DALAM CLASS
+    // --- RELASI ---
 
     public function store()
     {
@@ -47,10 +46,4 @@ class User extends Authenticatable
     {
         return $this->hasOne(Wallet::class);
     }
-
-//     public function canAccessPanel(\Filament\Panel $panel): bool
-// {
-//     return in_array($this->role, ['admin', 'penjual']);
-// }
-
 }
